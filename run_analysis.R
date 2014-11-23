@@ -35,6 +35,7 @@ activity <- rbind(y_train, y_test) # dim = 10299
 #Final data frame 
 Data <- cbind(data, subject,activity) # dim = 10299 81 (79 features + subject + activity)
 
+#Assign column names
 meanColNames <- as.character(features[,2][mean])
 sdColNames <- as.character(features[,2][sd])
 names(Data) <- c(meanColNames, sdColNames, "Subject", "Activity")
