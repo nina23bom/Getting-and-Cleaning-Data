@@ -1,0 +1,16 @@
+The column names are corresponding to the 46 mean measurements and 33 standard deviation measurements. 
+Each measurements in the TidyData set corresponds to the average of each variable for each activity and each subject
+
+Each row:
+row1: subject 1-> activity 1->  WALKING                           
+row2: subject 1-> activity 2->  WALKING_UPSTAIRS                
+row3: subject 1-> activity 3->  WALKING_DOWNSTAIRS                 
+row4: subject 1-> activity 4->  SITTING                          
+row5: subject 1-> activity 5->  STANDING                           
+row6: subject 1-> activity 6->  LAYING        
+row7: subject 2-> activity 1->  WALKING                           
+row8: subject 2-> activity 2->  WALKING_UPSTAIRS                
+row9: subject 2-> activity 3->  WALKING_DOWNSTAIRS                 
+row10: subject 2-> activity 4->  SITTING                          
+row11: subject 2-> activity 5->  STANDING                           
+row12: subject 2-> activity 6->  LAYING   
